@@ -1,3 +1,55 @@
+# 🚀 Splitmate – Your AI Expense Buddy
+
+**Splitmate** is a full-stack web application built with **Next.js**, **Tailwind CSS**, **Gemini AI**, **Convex**, **Inngest**, and **Shadcn UI**. It offers a smarter, faster way to manage shared expenses with friends, roommates, or teams—powered by AI and modern serverless tech.
+
+---
+
+## 🧠 Key Features
+
+- ✅ **AI-Powered Expense Insights** using **Gemini**
+- 🏘️ Create & Join Groups for trips, events, or households
+- 💸 Add Shared & Individual Expenses
+- 📊 Visual Charts & Dashboards
+- 🔔 **Monthly Email Reminders** with **Inngest**
+- 📱 Clean & Responsive UI with **Shadcn**
+- 🔐 Auth via **Clerk**
+
+---
+
+## 💡 How It Works
+
+1. **Create or Join a Group**  
+   Start a group for your roommates, trip, or event and invite friends.
+
+2. **Add Expenses**  
+   Log who paid and how it should be split.
+
+3. **Settle Up**  
+   View balances, and record payments when debts are cleared.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer        | Technology                      |
+|--------------|----------------------------------|
+| Frontend     | Next.js 14, Tailwind CSS, Shadcn UI |
+| Backend      | Convex (Database + Functions)   |
+| Automation   | Inngest (Event-driven Emails)   |
+| AI Engine    | Gemini                          |
+| Auth         | Clerk                           |
+| Deployment   | Vercel                          |
+
+---
+
+## 📧 Monthly Summary Emails
+
+At the end of every month, Splitmate sends users a personalized summary email of their group activity, helping them stay financially organized with zero effort.
+
+---
+
+## 📂 Project Setup
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
